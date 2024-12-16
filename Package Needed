@@ -1,0 +1,22 @@
+"pip install PyPDF2"
+To open the PDF files we need this package which is named as "pip install PyPDF2" 
+Once the "pip install PyPDF2" package has been installed it will ask you to restart the kernel(if you working in jupiter notebook)
+For restarting you can simply press "ctrl+shift+R"
+
+"import nltk
+nltk.download('punkt')
+nltk.download('stopwords')"
+After restarting the kernel you will need to import the package which is named as nltk
+Using nltk package we download punkt which is used to train our dataset
+Using nltk package we download stopwords which is used to remove unnecessary words from our text
+
+"import re
+import pypdf2
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import string"
+Here we first import regular expression package
+Next we import PyPDF2 package for opening resume which is in pdf format (Before we installed the PyPDF2 packafe and now we opening that PyPDF2 package don't get confused)
+Then we have to import sub package "stopwords" from nltk.corpus
+For finding tokens in our text we use nltk.tokens and it will find the tokenization words from the text
+Atlast we import string package
