@@ -1,1 +1,7 @@
+step 1 : Import packages file
+step 2 : Import dataset file
+step 3 : Extract text from resume file
+step 4 : Tokenization file
+step 5 : Match keyword file
+step 6 : Analyse resume and score file
 
